@@ -58,7 +58,7 @@ return htmltemplate;
 }
 
 app.get('/', function (req, res) {
-  res.send(createtemplate(articleone));
+  res.send(createtemplate(article-one));
 });
 app.get('/article-one', function(req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one.html')); 
