@@ -21,10 +21,10 @@ body {
 }
 .container{
     max-width: 800px;
-    margin: 10 auto;
+    margin: 0 auto;
     color: darkslategray;
     font-family: sans-serif;
     padding-top: 60px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
+    padding-left: 20 px;
+    padding-right: 20 px;
+ }
