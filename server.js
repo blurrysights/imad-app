@@ -21,13 +21,13 @@ var content= {
           <p> This is the part where im supposed to put in content. 
         </p>`
 };
-function createtemplate (data) {
+function createTemplate (data) {
     var title= data.title;
     var date = data.date;
     var heading= data.heading;
     var content= data.content;
 
-var htmltemplate= `
+var htmlTemplate= `
      <head>
         <title>
             ${title}
@@ -54,7 +54,7 @@ var htmltemplate= `
 </html>
 `;
 
-return htmltemplate;    
+return htmlTemplate;    
 }
 
 app.get('/', function (req, res) {
